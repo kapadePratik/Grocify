@@ -1,0 +1,75 @@
+.happyflowerimg{
+    width: 15vw;
+    /* height: 12vh; */
+    float: left;
+}
+
+.review-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    height: 50vh;
+  }
+
+  .review-header {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .stars {
+    color: #FFD700;
+    font-size: 22px;
+  }
+
+  .review-content {
+    padding: 15px;
+  }
+
+  .reviewer-photo {
+    width: 100%;
+    height: auto;
+  }
+
+  .reviewrow-bg{
+    background-color: #FBFCE9 ;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .review-card-mobile{
+       width: 90%;
+       height: 90%;
+       margin-top: 15px;
+       margin-right: 30px;
+    }
+    .mobile-view{
+      font-size: 17px;
+      font-weight: 500;
+    }
+    .reviewer-photo{
+      /* margin-bottom: 25px; */
+      padding-bottom: 30px;
+      
+    }
+    /* .happyflowerimg{
+      display: none;
+    } */
+    .happy-clientmobileview{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      /* display: none; */
+    }
+  }
+
+  @media (min-width: 1200px) {
+    /* Your styles for big devices go here */
+    .happy-clientmobileview{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+  }

@@ -1,0 +1,95 @@
+.view-allbtn{
+    display: flex;
+    float: right;
+}
+
+.view-allbutton{
+    /* border: none; */
+    outline: none;
+    background-color: white;
+    color: #339944;
+    border-radius: 12px;
+    border-color:#339944;
+    font-weight: 500;
+}
+
+.categoryh2{
+    font-weight: 700;
+}
+
+.flower-section{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.flower-img{
+    width: 25%;
+    height: 35vh;
+}
+
+/* YourCardComponent.css */
+
+.card {
+    width: 18rem; /* Set the card width as needed */
+    border: none; /* Remove default border */
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; /* Add box shadow */
+    margin: 20px;
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #6c757d; /* Text color, adjust as needed */
+  }
+
+
+  /* .category-card-img{
+    width: 5vw;
+    height: 25vh;
+  } */
+
+  .cat-card-title{
+    color: #333333;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .category-cardimg{
+    border-radius: 18px;
+  }
+  
+
+  @media only screen and (max-width: 600px) {
+    .flower-img {
+      width: 100%;
+    }
+    .cat-card-title {
+       /* display: none; */
+       /* padding-top: 12px; */
+       padding-bottom: 35px;
+       margin-bottom: 5px;
+    }
+    .catcard-mobile{
+      margin-right: 30px;
+    }
+     .cat-card-imgmobileview{
+      padding-top: 25px;
+      
+     }
+    }
+  

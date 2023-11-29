@@ -1,0 +1,86 @@
+
+.diviewplay-titleheadline {
+  font-weight: 700;
+}
+
+.display-card-title {
+  font-size: 24px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.qty-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.qty-container .input-qty {
+  text-align: center;
+  padding: 6px 10px;
+  border: 1px solid #d4d4d4;
+  max-width: 30px;
+  background-color: #339944;
+}
+.qty-container .qty-btn-minus,
+.qty-container .qty-btn-plus {
+  border: 1px solid #d4d4d4;
+  padding: 10px 13px;
+  font-size: 10px;
+  height: 38px;
+  width: 38px;
+  transition: 0.3s;
+}
+.qty-container .qty-btn-plus {
+  margin-left: -1px;
+}
+.qty-container .qty-btn-minus {
+  margin-right: -1px;
+}
+
+.display-addtocartbtn {
+  outline: none;
+  border: none;
+  background-color: #289402;
+  color: white;
+  border-radius: 10px;
+  padding: 6px 10px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.display-card {
+  width: 14.3rem;
+}
+
+.qty-btn-minus{
+    border: 10px;
+    color: #0056b3;
+}
+
+.change-image-wh {
+  margin-top: -10px;
+  width: 8vw;
+  height: 22vh;
+  margin-bottom: -30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .change-image-wh {
+    width: 100%;
+  }
+  .grocerycard-body-mobile-view{
+    padding-left: 55px;
+   
+  }
+  .seall-btnmobile-view{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 55px;
+  }
+  .display-titleheadline{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 55px;
+  }
+  
+}
