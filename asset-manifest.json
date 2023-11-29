@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Grocify/static/css/main.c7126d89.css",
-    "main.js": "/Grocify/static/js/main.af4a1457.js",
+    "main.js": "/Grocify/static/js/main.23da92aa.js",
     "static/js/787.86dc11ed.chunk.js": "/Grocify/static/js/787.86dc11ed.chunk.js",
     "static/media/cellphone.png": "/Grocify/static/media/cellphone.23d1a70c232963fb15ef.png",
     "static/media/deliveryboy.png": "/Grocify/static/media/deliveryboy.102ff793c63e5eaaf3f1.png",
@@ -42,11 +42,11 @@
     "static/media/logo.svg": "/Grocify/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Grocify/index.html",
     "main.c7126d89.css.map": "/Grocify/static/css/main.c7126d89.css.map",
-    "main.af4a1457.js.map": "/Grocify/static/js/main.af4a1457.js.map",
+    "main.23da92aa.js.map": "/Grocify/static/js/main.23da92aa.js.map",
     "787.86dc11ed.chunk.js.map": "/Grocify/static/js/787.86dc11ed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c7126d89.css",
-    "static/js/main.af4a1457.js"
+    "static/js/main.23da92aa.js"
   ]
 }
