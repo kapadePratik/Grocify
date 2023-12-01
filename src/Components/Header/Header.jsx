@@ -102,23 +102,13 @@ const Header = () => {
                       &nbsp; Contact
                     </a>
                   </li>
-                  
-                  <li class="nav-item">
-                    <a
-                      class="nav-link active"
-                      aria-current="page"
-                      // className="nav-text ms-5 desktopview"
-                      className="nav-text ms-5 d-flex justify-content-center">
-                      <RiContactsFill className="navbar-icons" size={27} />
-                      &nbsp; Join us
-                    </a>
-                  </li>
+
                   <li class="nav-item cart-logo-mobileview">
                     <a
                       class="nav-link active"
                       aria-current="page"
                       // className="nav-text ms-5 desktopview"
-                      className="nav-text ms-5 d-flex justify-content-center">
+                      className="nav-text ms-5 d-flex justify-content-center mt-2">
                       <FaCartShopping />
                     </a>
                   </li>

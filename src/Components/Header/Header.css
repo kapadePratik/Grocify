@@ -96,6 +96,15 @@ input.form-control {
 }
 
 @media only screen and (max-width: 600px) {
+
+ .cart-logo-mobileview{
+  display: none;
+ }
+
+ .button-group{
+  display: flex;
+  justify-content: space-between;
+ }
   .sidebar {
     position: fixed;
     top: 0;
@@ -200,6 +209,7 @@ input.form-control {
   .navbar-icons {
     display: none;
   }
+
 }
 
 /* Styles for small desktop devices */
@@ -207,6 +217,11 @@ input.form-control {
   /* Your styles for small desktop devices go here */
   .sidebar {
     width: 100%;
+  }
+  .navbar-desktopview{
+    margin-top: 5px;
+    /* float: right; */
+ 
   }
 }
 
@@ -216,6 +231,9 @@ input.form-control {
   .sidebar {
     width: 100%;
   }
+  .button-group{
+    float: right;
+  }
 }
 
 /* Styles for large desktop devices */
@@ -223,5 +241,9 @@ input.form-control {
   /* Your styles for large desktop devices go here */
   .sidebar {
     width: 100rem;
+  }
+
+  .button-group{
+    float: right;
   }
 }
