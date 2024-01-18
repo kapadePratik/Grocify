@@ -119,7 +119,7 @@ const Header = () => {
                         <button class="header-button">LogIn</button>
                       </a>
                       <a href="" class="nav-link">
-                        <button class="header-button">Register</button>
+                        <button class="header-button1">Register</button>
                       </a>
                     </div>
                   ) : (
